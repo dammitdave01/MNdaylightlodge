@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MN Daylight Lodge - MN Masons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>MN Daylight Lodge</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Homepage Section -->
+    <section id="home">
+        <h2>Welcome to MN Daylight Lodge</h2>
+        <p>Explore the history, events, and resources of our lodge and the MN Masons community.</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <!-- Google Calendar embed code goes here -->
+        <p>Check out our <a href="YOUR_GOOGLE_CALENDAR_LINK" target="_blank">Google Calendar</a> for upcoming events.</p>
+    </section>
+
+    <!-- History Section -->
+    <section id="history">
+        <h2>Our History</h2>
+        <p>Learn about the rich history of MN Masons and the legacy of our lodge.</p>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members">
+        <h2>Member Login</h2>
+        <form action="login_form_processing.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="send_message.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 MN Daylight Lodge | Minnesota Masons</p>
+</footer>
+
+</body>
+</html>
